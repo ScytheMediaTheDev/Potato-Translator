@@ -7,7 +7,7 @@ document.getElementById('translateBtn').addEventListener('click', function() {
 function translateText(text) {
     const englishToPotato = {
         "hello": "spuddy",
-        "world": "tuberland",
+        "world": "taterland",
         "potato": "spud",
         "eat": "munch",
         "sleep": "snooze",
