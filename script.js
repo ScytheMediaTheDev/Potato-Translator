@@ -814,7 +814,8 @@ function translateText(text) {
         "pass": "spud-pass",
         "fail": "spud-fail",
         "success": "spud-success",
-        "failure": "spud-failure,
+        "failure": "spud-failure",
+        "ass": "spud-thicc",
     };
 
     // Translate the text
