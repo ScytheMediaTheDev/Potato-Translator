@@ -815,3 +815,13 @@ function translateText(text) {
         "fail": "spud-fail",
         "success": "spud-success",
         "failure": "spud-failure,
+    };
+
+    // Translate the text
+    const translatedText = text
+        .split(' ')
+        .map(word => englishToPotato[word.toLowerCase()] || word)
+        .join(' ');
+
+    return translatedText;
+}
